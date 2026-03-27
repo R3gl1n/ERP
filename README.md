@@ -14,3 +14,7 @@ Purchase
 Sales
 
 Community Barcode Modul
+
+
+Nur dieser Flow für Version 1:
+Barcode scannen → Produktdaten von Open Food Facts holen → Produkt in Odoo anlegen/aktualisieren → Lagerbestand setzen.
