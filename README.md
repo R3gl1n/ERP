@@ -11,7 +11,28 @@ Barcode scannen
   → Lagerbestand synchronisieren
 ```
 
-**MVP (Version 1):** Alleen dieser Flow wird implementiert.
+**MVP (Version 1):** Dieser Kern-Flow ist implementiert und lauffaehig.
+
+## Neue Features
+
+- **Custom App: Barcode OFF**
+  - Eigener Menuepunkt in Odoo: `Barcode OFF -> Import Product`
+  - Wizard fuer Barcode-Import mit Menge und Lagerort
+- **Open Food Facts Integration mit Fallback**
+  - API-Abruf ueber `v2` mit Fallback auf `v0`
+  - User-Agent Header fuer stabile OFF-Anfragen
+  - Barcode-Variantenlogik fuer 12/13-stellige Codes
+- **Intelligente Produktanlage/-pflege**
+  - Neue Produkte werden automatisch in Odoo angelegt
+  - Bestehende Produkte werden anhand des Barcodes aktualisiert
+  - Kategorie wird aus OFF-Tags uebernommen/neu angelegt
+- **Erweitertes Daten-Mapping**
+  - Name, interne Beschreibung und Verkaufsbeschreibung
+  - Marke, Packungsmenge, Nutri-Score, NOVA-Gruppe
+  - Logistikfelder (Gewicht/Volumen) aus OFF-Einheiten
+  - Produktbild-Import (`image_1920`) von OFF
+- **Optionale Bestandsbuchung**
+  - Direkte Bestandsanpassung im gewaehlten internen Lagerort
 
 ## Verwendete Module
 
@@ -144,12 +165,12 @@ Das ist ok für lokale Entwicklung. Für Production sollte PostgreSQL 13+ verwen
 
 ---
 
-## Nächste Schritte
+## Naechste Schritte
 
-1. **Custom-Addon erstellen** für Barcode + Open Food Facts Integration
-2. **API-Client** zu Open Food Facts implementieren
-3. **WebUI / Scanner-Integration** testen
-4. **Tests** schreiben
+1. **Fallback-Strategie erweitern**, wenn OFF kein Produkt findet (minimalen Artikel anlegen)
+2. **Feld-Mapping ausbauen** (z. B. Herkunft, weitere Klassifikationen)
+3. **Logging und Benutzer-Meldungen verbessern**
+4. **Automatisierte Tests** fuer Wizard- und Import-Flow ergaenzen
 
 ---
 
