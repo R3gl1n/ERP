@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.4.27)  9 MAY 2026 12:17
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.4.27)  9 MAY 2026 12:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -996,63 +996,59 @@ File: FOM_Logo01_2012_rgb.jpg Graphic file (type bmp)
 Overfull \vbox (2.24141pt too high) has occurred while \output is active []
 
 
-[2] [3]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 470.
- [4
-
-] [5
-
-] [6
+[2] [3] [4
 
 ]
-Underfull \hbox (badness 1253) in paragraph at lines 528--529
-\TU/TimesNewRoman(0)/m/n/12 Dieses Kapitel beschreibt wesentliche technische Ko
-mponenten des Prototyps. Der
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 475.
+ [5]
+Underfull \hbox (badness 6625) in paragraph at lines 487--488
+\TU/TimesNewRoman(0)/m/n/12 Odoo ist ein modulares Open-Source-ERP-System mit i
+ntegrierter PostgreSQL-
  []
 
-[7
+[6
 
-] [8
+] [7] [8
 
-] [9
+] [9] [10] [11] [12
 
-] [10
+] [13] [14
 
 ] (main.lol
 Overfull \hbox (6.0pt too wide) detected at line 1
- \TU/TimesNewRoman(0)/m/n/12 4
+ \TU/TimesNewRoman(0)/m/n/12 5
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 2
- \TU/TimesNewRoman(0)/m/n/12 7
+Overfull \hbox (12.0pt too wide) detected at line 2
+ \TU/TimesNewRoman(0)/m/n/12 10
  []
 
 )
 \tf@lol=\write8
 \openout8 = `main.lol'.
 
- [11] [12
+ [15] [16
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 585--585
+Underfull \hbox (badness 10000) in paragraph at lines 688--688
 []\TU/TimesNewRoman(0)/m/n/12 Google Gemini, Ver-
  []
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 585--585
+Underfull \hbox (badness 2080) in paragraph at lines 688--688
 \TU/TimesNewRoman(0)/m/n/12 sion X.X, Zugriff am
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 586--587
+Underfull \hbox (badness 5592) in paragraph at lines 689--690
 []\TU/TimesNewRoman(0)/m/n/12 Unterstützung bei der formalen Strukturierung der
 
  []
 
 
-Overfull \hbox (9.77359pt too wide) in paragraph at lines 581--589
+Overfull \hbox (9.77359pt too wide) in paragraph at lines 684--692
 [] 
  []
 
@@ -1064,7 +1060,7 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[figure] on input line 82.
 See the caption package documentation for explanation.
 
-[13
+[17
 
 ] (main.aux)
  ***********
@@ -1072,7 +1068,7 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 112057EE3CBB5E50FF86745D1D775EDD;4026.
+(rerunfilecheck)             Checksum: 636D870A14ABA57826130C84F5E4F6CA;5256.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1080,10 +1076,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  24629 strings out of 402987
  468869 string characters out of 5455769
- 1421812 words of memory out of 5000000
+ 1422024 words of memory out of 5000000
  53092 multiletter control sequences out of 15000+600000
  632153 words of font info for 81 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
- 73i,11n,93p,836b,4854s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,11n,93p,836b,4856s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (18 pages).
+Output written on main.pdf (22 pages).

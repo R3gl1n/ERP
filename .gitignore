@@ -1,1 +1,18 @@
 .venv312/
+
+# LaTeX build artifacts
+Latex ERP/*.aux
+Latex ERP/*.bbl
+Latex ERP/*.bcf
+Latex ERP/*.blg
+Latex ERP/*.fdb_latexmk
+Latex ERP/*.fls
+Latex ERP/*.lof
+Latex ERP/*.log
+Latex ERP/*.lol
+Latex ERP/*.lot
+Latex ERP/*.out
+Latex ERP/*.run.xml
+Latex ERP/*.synctex.gz
+Latex ERP/*.toc
+Latex ERP/*.synctex(busy)
